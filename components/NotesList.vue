@@ -2,7 +2,7 @@
   <div id="notes-list">
 
     <div id="list-header">
-      <h2> Notes |  Coligo</h2>
+      <h2> Mariah's list of things </h2>
       <div class="btn-group btn-group-justified" role="group">
 
         <div class="btn-group" role="group">
@@ -13,7 +13,7 @@
 
         <div class="btn-group" role="group">
           <button type="button" class="btn btn-default" @click="show = 'favorite'" :class="{active: show === 'favorite'}">
-          Favorite
+          Favorites
           </button>
         </div>
       </div>
@@ -28,7 +28,7 @@
         </a>
       </div>
     </div>
-    
+
   </div>
 </template>
 
